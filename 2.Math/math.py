@@ -8,9 +8,12 @@ x=2+2-3*1
 print("X is:",x)
 x=2-2+1*3
 print("X is:",x)
+# In python using same variable with different value does't give an error. It simply updates the value of variable.
 x=1*3-2+2
 print("X is:",x)
 # But it also supports "()" strategy, Where you can finish that operation first and after that, related to that operator.
 # for example: here it is taking operation (3-1) first and then taking 2*(2).
 x=2+2*(3-1)
 print("X is:",x)
+# This line will give output it can with defining variable, whithout even defining.
+print(2*2+3-2)
