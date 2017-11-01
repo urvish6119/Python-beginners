@@ -9,7 +9,7 @@ print('Hello World.. from single quotes')
 # Also you can not write print statement starting with double quote and ending with single quote.
 # for example print("Hello World..')
 
-#---------------------------------------------------------------------------------------------------------------#
+#--------------------------------------------------------------------------------------------------------------#
 # Print arrow
 print('  *  ')
 print(' *** ')
