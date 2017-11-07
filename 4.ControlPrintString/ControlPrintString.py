@@ -76,3 +76,23 @@ x = ''' Hi, I am okay,
       because of this storm in your area.'''
 print(x)
 print(type(x))
+#-----------------------------------------------------------------------------------------------------------------------#
+# now let's try some controling print fnction.
+# end='' is a keyword argument, which is totally oposite of \n keyword.
+# When we use \n it starts the next argument in next line and if we use end='' it will start with next space available,
+# means it won't leave any space.
+# lets try example.
+print('enter:' ,end='')
+print(end='enter')
+print('hi')
+# you will see that last three line will leave no space between characters, it will print as soon as there is a space.
+# there is one more keyword known as sep='',
+# this is useful when we have t seprate string with some string,
+# let's don't get bored and see some examples for better understandings.
+a,b,c,d= 10,20,30,40
+print(a,b,c,d)
+print(a,b,c,d, sep='')
+print(a,b,c,d,sep='-')
+print(a,b,c,d,sep=':')
+print(a,b,c,d,sep=',')
+# as we can see from output that thre will be no space when use sep='', we have to define some string to differenciate bvetween them.
