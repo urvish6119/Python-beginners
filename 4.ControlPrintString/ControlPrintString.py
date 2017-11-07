@@ -78,8 +78,8 @@ print(x)
 print(type(x))
 #-----------------------------------------------------------------------------------------------------------------------#
 # now let's try some controling print fnction.
-# end='' is a keyword argument, which is totally oposite of /n keyword.
-# When we use /n it starts the next argument in next line and if we use end='' it will start with next space available,
+# end='' is a keyword argument, which is totally oposite of \n keyword.
+# When we use \n it starts the next argument in next line and if we use end='' it will start with next space available,
 # means it won't leave any space.
 # lets try example.
 print('enter:' ,end='')
